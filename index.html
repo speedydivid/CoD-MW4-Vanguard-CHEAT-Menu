@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MW4 Vanguard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            bg: '#0a0a0c',
+                            card: '#121316',
+                            border: '#2a2c33',
+                            accent: '#22c55e',
+                            accentHover: '#16a34a',
+                            danger: '#ef4444'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        tactical: ['Rajdhani', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #0a0a0c;
+            background-image: 
+                linear-gradient(rgba(34, 197, 94, 0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(34, 197, 94, 0.03) 1px, transparent 1px);
+            background-size: 20px 20px;
+            user-select: none;
+        }
+    </style>
+</head>
+<body class="min-h-screen text-slate-300 flex items-center justify-center p-4 font-sans antialiased">
+
+    <!-- Main Window -->
+    <div class="bg-brand-card w-full max-w-4xl rounded border border-brand-border shadow-[0_0_30px_rgba(0,0,0,0.8)] overflow-hidden flex flex-col">
+        
+        <!-- Title Bar -->
+        <div class="h-12 border-b border-brand-border flex items-center justify-between px-4 bg-[#0d0d10]">
+            <div class="flex items-center gap-3">
+                <div class="w-6 h-6 rounded bg-brand-accent flex items-center justify-center">
+                    <svg class="w-4 h-4 text-black" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2L2 22h20L12 2zm0 4.5l6.5 13h-13L12 6.5z"/></svg>
+                </div>
+                <span class="font-tactical font-bold text-lg tracking-widest text-white uppercase">Vanguard <span class="text-brand-accent">MW4</span></span>
+            </div>
+            <div class="flex gap-4 items-center">
+                <div class="text-[10px] font-mono text-brand-accent flex items-center gap-1">
+                    <span class="w-1.5 h-1.5 rounded-full bg-brand-accent animate-pulse"></span>
+                    RICOCHET BYPASSED
+                </div>
+                <div class="text-[10px] font-mono text-slate-500">UID: 8F3A-99X</div>
+            </div>
+        </div>
+
+        <div class="flex h-[500px]">
+            <!-- Sidebar -->
+            <div class="w-48 bg-[#0d0d10] border-r border-brand-border py-4 flex flex-col gap-1">
+                <button class="flex items-center gap-3 px-4 py-2.5 bg-brand-accent/10 border-l-2 border-brand-accent text-brand-accent text-sm font-tactical font-semibold tracking-wider uppercase transition-all">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                    Aimbot
+                </button>
+                <button class="flex items-center gap-3 px-4 py-2.5 text-slate-400 hover:text-white hover:bg-white/5 text-sm font-tactical font-semibold tracking-wider uppercase transition-all">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path></svg>
+                    Visuals
+                </button>
+                <button class="flex items-center gap-3 px-4 py-2.5 text-slate-400 hover:text-white hover:bg-white/5 text-sm font-tactical font-semibold tracking-wider uppercase transition-all">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
+                    Unlocker
+                </button>
+                <button class="flex items-center gap-3 px-4 py-2.5 text-slate-400 hover:text-white hover:bg-white/5 text-sm font-tactical font-semibold tracking-wider uppercase transition-all">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                    Settings
+                </button>
+            </div>
+
+            <!-- Content -->
+            <div class="flex-1 p-6 bg-[#0a0a0c]/50">
+                <div class="flex justify-between items-end mb-6 border-b border-brand-border pb-2">
+                    <h2 class="text-2xl font-tactical font-bold text-white tracking-wide uppercase">Aimbot Configuration</h2>
+                    <span class="text-xs font-mono text-slate-500">Mode: EXTERNAL</span>
+                </div>
+
+                <div class="grid grid-cols-2 gap-6">
+                    <!-- Column 1 -->
+                    <div class="space-y-4">
+                        <div class="flex items-center justify-between p-3 bg-brand-card border border-brand-border rounded">
+                            <div>
+                                <div class="text-sm text-white font-medium">Master Switch</div>
+                                <div class="text-[10px] text-slate-500">Enable/disable aimbot</div>
+                            </div>
+                            <label class="relative inline-flex items-center cursor-pointer">
+                                <input type="checkbox" checked class="sr-only peer">
+                                <div class="w-9 h-5 bg-slate-700 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-slate-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-brand-accent"></div>
+                            </label>
+                        </div>
+
+                        <div class="flex items-center justify-between p-3 bg-brand-card border border-brand-border rounded">
+                            <div>
+                                <div class="text-sm text-white font-medium">Silent Aim</div>
+                                <div class="text-[10px] text-slate-500">Hitbox-based targeting</div>
+                            </div>
+                            <label class="relative inline-flex items-center cursor-pointer">
+                                <input type="checkbox" checked class="sr-only peer">
+                                <div class="w-9 h-5 bg-slate-700 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-slate-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-brand-accent"></div>
+                            </label>
+                        </div>
+
+                        <div class="space-y-2 p-3 bg-brand-card border border-brand-border rounded">
+                            <div class="flex justify-between text-xs">
+                                <span class="text-slate-300">FOV</span>
+                                <span class="text-brand-accent font-mono">45°</span>
+                            </div>
+                            <input type="range" min="0" max="180" value="45" class="w-full accent-brand-accent">
+                        </div>
+                    </div>
+
+                    <!-- Column 2 -->
+                    <div class="space-y-4">
+                        <div class="space-y-2 p-3 bg-brand-card border border-brand-border rounded">
+                            <div class="flex justify-between text-xs">
+                                <span class="text-slate-300">Smoothness</span>
+                                <span class="text-brand-accent font-mono">2.5</span>
+                            </div>
+                            <input type="range" min="1" max="10" step="0.1" value="2.5" class="w-full accent-brand-accent">
+                        </div>
+
+                        <div class="p-3 bg-brand-card border border-brand-border rounded">
+                            <div class="text-xs text-slate-300 mb-2">Target Bone</div>
+                            <select class="w-full bg-[#0a0a0c] border border-brand-border rounded px-2 py-1.5 text-xs text-white outline-none focus:border-brand-accent">
+                                <option>Head</option>
+                                <option>Neck</option>
+                                <option>Chest</option>
+                                <option>Nearest</option>
+                            </select>
+                        </div>
+
+                        <div class="p-3 bg-brand-card border border-brand-border rounded">
+                            <div class="text-xs text-slate-300 mb-2">Aim Key</div>
+                            <select class="w-full bg-[#0a0a0c] border border-brand-border rounded px-2 py-1.5 text-xs text-white outline-none focus:border-brand-accent">
+                                <option>Left Mouse Button</option>
+                                <option>Right Mouse Button</option>
+                                <option>Left Alt</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- HWID Note -->
+                <div class="mt-6 p-3 bg-brand-danger/10 border border-brand-danger/30 rounded flex items-start gap-3">
+                    <svg class="w-5 h-5 text-brand-danger shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+                    <div>
+                        <div class="text-xs font-bold text-brand-danger uppercase tracking-wide">HWID Spoofer Status: Active</div>
+                        <div class="text-[10px] text-brand-danger/70 mt-1">Your hardware ID is currently randomized. Do not close the loader during gameplay.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <div class="h-10 bg-[#0d0d10] border-t border-brand-border flex items-center justify-between px-4">
+            <div class="text-[10px] font-mono text-slate-500">Build: 1.0.4 // Status: <span class="text-brand-accent">Undetected</span></div>
+            <div class="text-[10px] font-mono text-slate-500">Press <kbd class="bg-slate-800 px-1 rounded text-white">INSERT</kbd> to toggle</div>
+        </div>
+    </div>
+
+</body>
+</html>
