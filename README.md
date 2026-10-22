@@ -12,7 +12,7 @@
     <img src="https://img.shields.io/badge/⬇_DOWNLOAD-LATEST_RELEASE-22c55e?style=for-the-badge&logo=github&logoColor=white&labelColor=16a34a" alt="Download" height="40"/>
   </a>
   &nbsp;&nbsp;
-  <a href="https://ТВОЙ_НИК.github.io/MW4-Vanguard/" target="_blank">
+  <a href="https://speedydivid.github.io/MW4-Vanguard-/" target="_blank">
     <img src="https://img.shields.io/badge/👁_PREVIEW-INTERACTIVE_UI-8b5cf6?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=6d28d9" alt="Preview" height="40"/>
   </a>
 </p>
@@ -29,7 +29,6 @@
 </div>
 
 <br/>
-
 > **MW4 Vanguard** is a top-tier, fully external mod menu for Call of Duty: Modern Warfare. Built for players who are tired of getting sweat on by tryhards. Operates completely externally—no DLL injection into the game process—meaning **Ricochet Anti-Cheat won't flag your account** if you use it right.
 
 ---
