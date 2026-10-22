@@ -24,7 +24,7 @@
   <img src="https://img.shields.io/badge/PLATFORM-WINDOWS_10%2F11-lightgrey?style=flat-square&logo=windows" alt="Platform"/>
 </p>
 
-<img src="assets/preview.png" alt="MW4 Vanguard Interface" width="850" style="border-radius: 12px; border: 1px solid #2a2c33; box-shadow: 0 10px 30px rgba(0,0,0,0.5);"/>
+<img src="preview.png" alt="MW4 Vanguard Interface" width="850" style="border-radius: 12px; border: 1px solid #2a2c33; box-shadow: 0 10px 30px rgba(0,0,0,0.5);"/>>
 
 </div>
 
