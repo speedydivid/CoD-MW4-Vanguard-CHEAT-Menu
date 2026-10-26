@@ -20,7 +20,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/STATUS-UNDETECTED-22c55e?style=flat-square&logo=shield" alt="Status"/>
   <img src="https://img.shields.io/badge/RICOCHET-BYPASSED-22c55e?style=flat-square&logo=cod" alt="Bypass"/>
-  <img src="https://img.shields.io/badge/BUILD-v1.0.0-blue?style=flat-square" alt="Build"/>
+  <img src="https://img.shields.io/badge/BUILD-v1.1.0-blue?style=flat-square" alt="Build"/>
   <img src="https://img.shields.io/badge/PLATFORM-WINDOWS_10%2F11-lightgrey?style=flat-square&logo=windows" alt="Platform"/>
 </p>
 
