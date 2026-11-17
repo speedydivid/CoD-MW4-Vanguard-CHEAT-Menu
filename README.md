@@ -1,7 +1,6 @@
 <div align="center">
 
- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Crossed%20Swords.png" width="35"  MW4 CHEAT VANGUARD NEW RELEASE V2 NEW BYPASS AC
-
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Crossed%20Swords.png" width="35" alt="Crossed Swords">
 <p align="center">
   <b>The ultimate external mod menu for Call of Duty: Modern Warfare cheat.</b><br>
   <i>Dominate the lobby. Bypass the system.</i>
